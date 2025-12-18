@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run build:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(npm run db:push:*)",
+      "Bash(npm run db:generate:*)",
+      "Bash(cat:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run test)",
+      "Bash(npm test)",
+      "Bash(npm run test:fast:*)",
+      "Bash(npm run test:ci:*)",
+      "Bash(if [ -f \"nul\" ])",
+      "Bash(else echo \"nul file not found\")",
+      "Bash(fi)",
+      "Bash(dir:*)",
+      "Bash(if [ -d \"backend/prisma/migrations\" ])",
+      "Bash(then echo \"Migrations directory exists\")",
+      "Bash(else echo \"No migrations directory\")"
+    ]
+  }
+}
